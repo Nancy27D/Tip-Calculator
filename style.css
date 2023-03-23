@@ -1,0 +1,55 @@
+*{margin: 0; padding: 0;box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;}
+    
+    main{
+      /* height: 100vh; */
+      background-color: rgb(241, 197, 203);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* tip in center top  */
+      flex-direction: column; 
+      text-align: center;
+    }
+    div{
+        max-width: 500px; height: auto; /* auto responsive*/
+        background-color: aliceblue;
+        padding: 50px;
+        box-shadow: 1px 1px 15px 3px #3c4547;
+    } 
+    H1{
+        margin-bottom: 10px;
+        text-shadow: 1px 2px 1px white;
+        text-transform: capitalize;
+    }
+    label{
+        display: block;
+        text-transform: capitalize;
+        margin-top: 30px;
+        font-size: x-large;
+        align-items: center;
+    }
+    input{
+        width: 400px;
+        padding: 10px;
+    }
+    button{
+        border-radius: 8px;
+        padding: 10px 10px; /* TB LR*/
+        font-size: 1rem;
+        /* text-transform: ; */
+        border: none;
+        color: black;
+        background: rgb(235, 175, 194);
+        box-shadow: 1px 1px 5px 1px #384042;
+        margin-top: 20px;
+    }
+.totalTip{
+    background: rgb(235, 176, 186);
+    border-radius: 18px;
+    padding: 5px 0 20px;
+}
+p.tip{
+    font-size: 30px;
+    margin-top: 10px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tip calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <main>
+        <H1>Tip Calculator</H1>
+        <div class="calculator">
+            <header>
+
+                <label>Enter Your bill amount</label>
+                <input type="number" name="" id="amount">
+                <label>How was the service?(Tip)</label>
+                <select name="" id="tipPercent" class="service">
+                    <option disabled selected></option>
+                    <option value="20">Excellent -20%</option>
+                    <option value="10">Good -15%</option>
+                    <option value="10">Medium -10%</option>
+                    <option value="5">5%</option>
+                    <option value="0">0%</option>
+                </select>
+                <label>Split the bill into</label>
+                <input type="number" name="" id="split">
+
+                <label>Tip amount</label>
+                <input type="number" name=" " id="tipAmount" disabled >
+
+                <label>Total billed</label>
+                <input type="number" name=" " id="totalBilled" disabled>
+
+                <button id="calculate" onclick="calculate()" > Calculator</button>
+                <br>
+                <br>
+
+                <div class="totalTip">
+                <label>Total Per Person</label>
+                <p class="tip">$<span id="totalPerP">0.00</span></p>
+                </div> 
+            </header>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
